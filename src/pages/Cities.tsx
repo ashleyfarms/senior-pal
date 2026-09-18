@@ -13,8 +13,9 @@ export function Cities() {
     <div className="page">
       <h1>Browse by state</h1>
       <p className="lede">
-        Pick a state, then search for your city. National chain discounts show in
-        every city; local deals appear when we have them.
+        Pick a state, then search for your city. We prioritize retirement hubs,
+        high 65+ areas, and big senior population centers. National chain
+        discounts show in every city; local deals appear when we have them.
       </p>
       {catLabel && (
         <p className="banner">
