@@ -33,8 +33,7 @@ export function StatePage() {
         <span className="state-chip">{group.stateAbbr}</span> {group.state}
       </h1>
       <p className="lede">
-        Search for a city in {group.state}. Age eligibility is on every discount
-        card.
+        Cities in {group.state}. Age eligibility is on every discount card.
       </p>
       {catLabel && (
         <p className="banner">
@@ -48,6 +47,19 @@ export function StatePage() {
           placeholder={`Search ${group.state} cities…`}
         />
       </div>
+
+      <ul className="city-list city-list--large" role="list">
+        {group.cities.map((city) => (
+          <li key={city.id}>
+            <Link
+              className="city-chip"
+              to={`/city/${city.id}${category ? `?category=${category}` : ''}`}
+            >
+              {city.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
 
       <p className="muted-note">
         <Link to="/cities">All states</Link>
