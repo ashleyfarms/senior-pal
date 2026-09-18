@@ -13,8 +13,8 @@ export function Cities() {
     <div className="page">
       <h1>Browse by state</h1>
       <p className="lede">
-        Pick a state, then a city — same flow as the Best guides. National chain
-        discounts show in every city; local deals appear when we have them.
+        Pick a state, then search for your city. National chain discounts show in
+        every city; local deals appear when we have them.
       </p>
       {catLabel && (
         <p className="banner">
@@ -40,29 +40,6 @@ export function Cities() {
               {group.cities.length} {group.cities.length === 1 ? 'city' : 'cities'}
             </span>
           </Link>
-        ))}
-      </div>
-
-      <h2 className="section-title">All states</h2>
-      <div className="state-groups">
-        {groups.map((group) => (
-          <section key={group.stateAbbr} className="state-group" id={`state-${group.stateAbbr}`}>
-            <h3 className="state-group__title">
-              <Link className="state-group__link" to={`/state/${group.stateAbbr.toLowerCase()}`}>
-                <span className="state-chip">{group.stateAbbr}</span>
-                {group.state}
-              </Link>
-            </h3>
-            <ul className="city-list" role="list">
-              {group.cities.map((city) => (
-                <li key={city.id}>
-                  <Link className="city-chip" to={`/city/${city.id}`}>
-                    {city.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
         ))}
       </div>
     </div>
