@@ -1,5 +1,9 @@
 # Senior Pal
 
+**Live:** https://senior-pal.netlify.app
+
+**Branded (DNS pending):** https://seniorpal.help-pal-apps.com
+
 **Senior discounts near you — and the age they start.**
 
 A free, ad-supported Help-Pal directory of senior citizen and membership discounts by location. Every listing shows the **minimum age** and/or **membership** (e.g. AARP) where the offer applies.
