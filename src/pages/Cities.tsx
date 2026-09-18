@@ -12,8 +12,9 @@ export function Cities() {
     <div className="page">
       <h1>Cities</h1>
       <p className="lede">
-        Senior Pal starts with five seed cities. National chain discounts appear
-        in every city view; local listings are city-specific.
+        Browse Florida and Arizona cities over 200,000 people, plus a few other
+        metros. National chain discounts appear in every city view; local
+        listings are city-specific when we have them.
       </p>
       {catLabel && (
         <p className="banner">
