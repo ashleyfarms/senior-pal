@@ -53,7 +53,7 @@ export function Home() {
         </ol>
         <p>
           <Link className="btn" to="/cities">
-            Browse cities
+            Browse by state
           </Link>{' '}
           <Link className="btn btn--ghost" to="/suggest">
             Suggest a discount

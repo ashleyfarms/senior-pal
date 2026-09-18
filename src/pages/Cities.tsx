@@ -1,20 +1,20 @@
 import { Link, useSearchParams } from 'react-router-dom';
 import { CityPicker } from '../components/CityPicker';
-import { CITIES, cityLabel } from '../data/cities';
+import { groupCitiesByState } from '../data/cities';
 import { CATEGORIES } from '../data/types';
 
 export function Cities() {
   const [params] = useSearchParams();
   const category = params.get('category');
   const catLabel = CATEGORIES.find((c) => c.id === category)?.label;
+  const groups = groupCitiesByState();
 
   return (
     <div className="page">
-      <h1>Cities</h1>
+      <h1>Browse by state</h1>
       <p className="lede">
-        Browse Florida and Arizona cities over 200,000 people, plus a few other
-        metros. National chain discounts appear in every city view; local
-        listings are city-specific when we have them.
+        Pick a state, then a city — same flow as the Best guides. National chain
+        discounts show in every city; local deals appear when we have them.
       </p>
       {catLabel && (
         <p className="banner">
@@ -26,16 +26,45 @@ export function Cities() {
         <CityPicker />
       </div>
 
-      <ul className="city-grid" role="list">
-        {CITIES.map((city) => (
-          <li key={city.id}>
-            <Link className="city-tile" to={`/city/${city.id}`}>
-              <span className="city-tile__name">{city.name}</span>
-              <span className="city-tile__state">{cityLabel(city)}</span>
-            </Link>
-          </li>
+      <div className="state-tile-grid" role="list">
+        {groups.map((group) => (
+          <Link
+            key={group.stateAbbr}
+            className="state-tile"
+            role="listitem"
+            to={`/state/${group.stateAbbr.toLowerCase()}${category ? `?category=${category}` : ''}`}
+          >
+            <span className="state-chip">{group.stateAbbr}</span>
+            <span className="state-tile__name">{group.state}</span>
+            <span className="state-tile__count">
+              {group.cities.length} {group.cities.length === 1 ? 'city' : 'cities'}
+            </span>
+          </Link>
         ))}
-      </ul>
+      </div>
+
+      <h2 className="section-title">All states</h2>
+      <div className="state-groups">
+        {groups.map((group) => (
+          <section key={group.stateAbbr} className="state-group" id={`state-${group.stateAbbr}`}>
+            <h3 className="state-group__title">
+              <Link className="state-group__link" to={`/state/${group.stateAbbr.toLowerCase()}`}>
+                <span className="state-chip">{group.stateAbbr}</span>
+                {group.state}
+              </Link>
+            </h3>
+            <ul className="city-list" role="list">
+              {group.cities.map((city) => (
+                <li key={city.id}>
+                  <Link className="city-chip" to={`/city/${city.id}`}>
+                    {city.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
     </div>
   );
 }

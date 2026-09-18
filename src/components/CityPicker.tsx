@@ -13,13 +13,13 @@ export function CityPicker({ compact = false }: Props) {
   return (
     <div className={`city-picker ${compact ? 'city-picker--compact' : ''}`}>
       <label className="city-picker__label" htmlFor="city-search">
-        Find your city
+        Search cities
       </label>
       <input
         id="city-search"
         className="city-picker__input"
         type="search"
-        placeholder="Austin, Nashville, Chicago…"
+        placeholder="Phoenix, Miami, Tampa…"
         value={q}
         onChange={(e) => setQ(e.target.value)}
         autoComplete="off"

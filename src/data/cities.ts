@@ -46,3 +46,23 @@ export function searchCities(query: string): City[] {
       c.stateAbbr.toLowerCase().includes(q),
   );
 }
+
+export function groupCitiesByState(): { state: string; stateAbbr: string; cities: City[] }[] {
+  const map = new Map<string, { state: string; stateAbbr: string; cities: City[] }>();
+  for (const city of CITIES) {
+    const key = city.stateAbbr;
+    if (!map.has(key)) {
+      map.set(key, { state: city.state, stateAbbr: city.stateAbbr, cities: [] });
+    }
+    map.get(key)!.cities.push(city);
+  }
+  for (const g of map.values()) {
+    g.cities.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  return Array.from(map.values()).sort((a, b) => a.state.localeCompare(b.state));
+}
+
+export function getStateGroup(stateAbbr: string) {
+  const abbr = stateAbbr.trim().toUpperCase();
+  return groupCitiesByState().find((g) => g.stateAbbr === abbr);
+}

@@ -687,3 +687,136 @@ img {
     width: 100%;
   }
 }
+
+/* State-by-state browse (Best-sites style) */
+.state-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 1.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+.state-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: flex-start;
+  padding: 0.9rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  min-height: var(--tap);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.state-tile:hover {
+  transform: translateY(-2px);
+  border-color: var(--forest);
+  color: var(--ink);
+}
+
+.state-tile__name {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.state-tile__count {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.state-groups {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.state-group__title {
+  margin: 0 0 0.65rem;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.state-group__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.state-group__link:hover {
+  color: var(--coral);
+}
+
+.state-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.2rem 0.45rem;
+  background: var(--forest);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+}
+
+.city-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.city-list--large .city-chip {
+  font-size: 1.05rem;
+  padding: 0.7rem 1.15rem;
+}
+
+.city-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0.55rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+  box-shadow: 0 2px 0 rgba(47, 93, 80, 0.12);
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.city-chip:hover {
+  border-color: var(--forest);
+  background: #e7f0ec;
+  color: var(--forest-deep);
+  transform: translateY(-2px);
+}
+
+.section-title {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+.crumbs {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.muted-note {
+  margin-top: 1.5rem;
+  color: var(--muted);
+}
