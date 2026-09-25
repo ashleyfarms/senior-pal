@@ -20,10 +20,21 @@ export function Privacy() {
           information for using the directory.
         </li>
       </ul>
-      <h2>Analytics &amp; ads</h2>
+      <h2>Advertising &amp; cookies</h2>
       <p>
-        We use Google Analytics 4 (G-E7PX36SGJE) for aggregate traffic. Ads
-        (including AdSense when enabled) may use cookies under their own policies.
+        We show ads through Google AdSense to keep Senior Pal free. Third-party
+        vendors, including Google, use cookies to serve ads based on your prior
+        visits to this website or other websites. You can opt out of
+        personalized advertising in{' '}
+        <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">
+          Google Ads Settings
+        </a>
+        .
+      </p>
+      <h2>Analytics</h2>
+      <p>
+        We may use Google Analytics to understand aggregate traffic (for
+        example, page views). Google may set cookies under its own policies.
       </p>
       <h2>Affiliation</h2>
       <p>
@@ -31,6 +42,7 @@ export function Privacy() {
         businesses listed. Discounts change often — verify before you go.
       </p>
       <p>
+        <a href="/privacy.html">Full privacy policy</a> ·{' '}
         <Link to="/terms">Terms of use</Link>
       </p>
     </div>
