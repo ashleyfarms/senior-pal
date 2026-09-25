@@ -33,7 +33,7 @@ export function Privacy() {
       </p>
       <h2>Analytics</h2>
       <p>
-        We may use Google Analytics to understand aggregate traffic (for
+        We use Google Analytics to understand aggregate traffic (for
         example, page views). Google may set cookies under its own policies.
       </p>
       <h2>Affiliation</h2>
