@@ -5,8 +5,9 @@ export function Privacy() {
     <div className="page prose">
       <h1>Privacy</h1>
       <p>
-        Senior Pal is a free, ad-supported Help-Pal app. There is no account,
-        subscription, or paywall.
+        <strong>Free with ads.</strong> No paid plans. No account required. We
+        don&apos;t sell your personal info — usage stats and ads help keep the
+        tools free.
       </p>
       <h2>What we store</h2>
       <ul>
@@ -19,11 +20,10 @@ export function Privacy() {
           information for using the directory.
         </li>
       </ul>
-      <h2>Ads</h2>
+      <h2>Analytics &amp; ads</h2>
       <p>
-        The app includes ad placeholder slots. When live ads are enabled, ad
-        partners may use cookies or similar technologies according to their own
-        policies.
+        We use Google Analytics 4 (G-E7PX36SGJE) for aggregate traffic. Ads
+        (including AdSense when enabled) may use cookies under their own policies.
       </p>
       <h2>Affiliation</h2>
       <p>
