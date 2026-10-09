@@ -18,13 +18,13 @@ export function Terms() {
       <h2>No affiliation</h2>
       <p>
         Help-Pal / Senior Pal is not affiliated with AARP, national chains, or
-        local agencies mentioned in seed data unless explicitly stated
+        local agencies mentioned in listings unless explicitly stated
         elsewhere.
       </p>
       <h2>No paywall</h2>
       <p>
         Core directory features are free. We may show advertisements. We do not
-        sell subscriptions for this MVP.
+        sell subscriptions.
       </p>
       <h2>Suggestions</h2>
       <p>
