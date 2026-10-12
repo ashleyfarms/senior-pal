@@ -51,4 +51,6 @@ Also searched (weak / nothing added):
 - Showcase Cinemas Senior Wednesdays — regional chain, not Sarasota-specific independent.
 - Prior Myrtle Beach entries already present (Barnacle Bill’s, Chesapeake House, Johnny D’s, Bennett’s); Hilton Head J.C.’s Riptides already present.
 
+Commit: `3960533` · Netlify deploy: `6acd0134256cc2ff25efc3ec` (prod https://seniorpal.help-pal-apps.com)
+
 Rotation note for next week: avoid Sarasota/Venice/Asheville/Myrtle Beach/Hilton Head; fallbacks The Villages FL, Hot Springs AR, Cape Coral/Fort Myers FL still available.
