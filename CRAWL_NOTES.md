@@ -30,3 +30,25 @@ Also searched (weak / nothing added):
 - Skipped big nationals: Goodwill AZ Tuesday 55+, Great Clips, Fry's (already covered).
 
 Rotation note for next week: avoid Scottsdale/Sun City/Laguna Woods/Green Valley; Sun City West still has no local entries — retry later via Sun City West Independent ads or Rec Centers partners.
+
+## 2026-10-12 (Mon) — Grok Bot weekly crawl
+Cities focused / covered this run:
+- Sarasota, FL (`sarasota-fl`) — Senior Friendship Centers Friendship Café (60+ weekday lunch, ~$3 suggested donation)
+- Venice, FL (`venice-fl`) — Venice Friendship Café (60+ weekday lunch, ~$3 suggested donation)
+- Asheville, NC (`asheville-nc`) — Asheville Art Museum (65+ ~$15), Biltmore Estate (65+ $18 off House & Grounds Tue/Wed), WNC Nature Center (65+ ~$15.95), Council on Aging Buncombe Senior Dining & Wellness (60+ Buncombe residents, free congregate lunch)
+- Myrtle Beach, SC (`myrtle-beach-sc`) — The Original Benjamin's Calabash Seafood (65+ $2 off adult buffet first two hours daily)
+- Hilton Head Island, SC (`hilton-head-sc`) — Park Plaza Cinema (62+ senior ticket pricing)
+
+Also searched (weak / nothing added):
+- Hooters “Silver & Sexy” (62+ 15% Mon–Fri 3–6) — national chain Florida promo; skipped.
+- Visiting Angels / NCOA Sarasota lists — mostly nationals already covered (Denny’s, IHOP, Outback, Publix, Walgreens, Kohl’s).
+- Perkins Venice 55+ menu — national chain; skipped.
+- Mikado Japanese Steak House / The Bier Garden (Asheville) — directory tags only; no stated age + deal amount.
+- Age Well Driftwood Café — Muskegon MI, wrong state (search collision).
+- Coastal Discovery Museum Hilton Head — general admission free; no senior tier to list.
+- WonderWorks Myrtle Beach senior attraction pass — tourist chain product; deprioritized vs named locals.
+- Luna Grill Luna Legends (65+) — no target-city locations.
+- Showcase Cinemas Senior Wednesdays — regional chain, not Sarasota-specific independent.
+- Prior Myrtle Beach entries already present (Barnacle Bill’s, Chesapeake House, Johnny D’s, Bennett’s); Hilton Head J.C.’s Riptides already present.
+
+Rotation note for next week: avoid Sarasota/Venice/Asheville/Myrtle Beach/Hilton Head; fallbacks The Villages FL, Hot Springs AR, Cape Coral/Fort Myers FL still available.
