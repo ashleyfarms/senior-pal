@@ -7,7 +7,7 @@ export function Home() {
   return (
     <div className="page home">
       <section className="hero">
-        <p className="eyebrow">Free · ads only · no paywall</p>
+        <p className="eyebrow">Free with ads · no account needed</p>
         <h1>Senior discounts near you — and the age they start.</h1>
         <p className="lede">
           A calm directory of senior and membership discounts. Every listing

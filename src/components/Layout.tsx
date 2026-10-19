@@ -43,7 +43,7 @@ export function Layout() {
 
       <footer className="site-footer">
         <p className="site-footer__tag">
-          Senior discounts near you — and the age they start. Free, ads only.
+          Senior discounts near you — and the age they start. Free with ads.
         </p>
         <HelpPalLink />
         <p className="help-pal-link">
