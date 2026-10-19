@@ -54,3 +54,21 @@ Also searched (weak / nothing added):
 Commit: `3960533` · Netlify deploy: `6acd0134256cc2ff25efc3ec` (prod https://seniorpal.help-pal-apps.com)
 
 Rotation note for next week: avoid Sarasota/Venice/Asheville/Myrtle Beach/Hilton Head; fallbacks The Villages FL, Hot Springs AR, Cape Coral/Fort Myers FL still available.
+
+## 2026-10-19 (Mon) — Grok Bot weekly crawl
+Cities focused / covered this run:
+- The Villages, FL (`the-villages-fl`) — Epic Theatres Old Mill Playhouse (55+ ~$9.11), Sumter County Transit senior shuttle fare (60+ $0.25), The Barber Suite Wildwood (55+ ~$25 cut)
+- Hot Springs, AR (`hot-springs-ar`) — Hot Springs 8 VIP Cinema (65+ $12), Mid-America Science Museum (65+ $13)
+- Cape Coral / Fort Myers area (`cape-coral-fl`) — Cape Coral Museum of History (62+ $5), Cultural Park Theatre Company (senior ~$22, ~60+)
+
+Also searched (weak / nothing added):
+- Pocket Community Theatre (Hot Springs) — $20 students/seniors vs $25 GA but age cutoff not published.
+- Calusa Nature Center (Fort Myers) — “discounts for seniors” with no age/amount on official page.
+- IMAG History & Science Center — Visit Fort Myers Beach still shows old Imaginarium 55+ $10; official theimag.org / tickets.theimag.org no current senior tier listed.
+- Gorilla Grooming Co. (Leesburg) — Senior Cut $27 ($5 off) but no age on site; Leesburg not a focus cityId.
+- Garvan Woodland Gardens — no current senior rate (older $7.75 55+ listings stale).
+- The Villages nationals (IHOP/Denny’s/Kohl’s/Ross/Walgreens/Golden Corral) — already covered nationally or chain; skipped.
+- Visiting Angels / Talk of The Villages generic chain lists — skipped.
+
+Rotation note for next week: avoid The Villages / Hot Springs / Cape Coral; try Fort Myers-proper locals, Estero/Bonita Springs, Sedona/Payson AZ, or Rehoboth Beach DE.
+
