@@ -56,6 +56,8 @@ Commit: `3960533` · Netlify deploy: `6acd0134256cc2ff25efc3ec` (prod https://se
 Rotation note for next week: avoid Sarasota/Venice/Asheville/Myrtle Beach/Hilton Head; fallbacks The Villages FL, Hot Springs AR, Cape Coral/Fort Myers FL still available.
 
 ## 2026-10-19 (Mon) — Grok Bot weekly crawl
+Commit: `c6a0a5f` · Netlify deploy: `6ad63c610f766db06032c46c` (prod https://seniorpal.help-pal-apps.com)
+
 Cities focused / covered this run:
 - The Villages, FL (`the-villages-fl`) — Epic Theatres Old Mill Playhouse (55+ ~$9.11), Sumter County Transit senior shuttle fare (60+ $0.25), The Barber Suite Wildwood (55+ ~$25 cut)
 - Hot Springs, AR (`hot-springs-ar`) — Hot Springs 8 VIP Cinema (65+ $12), Mid-America Science Museum (65+ $13)
