@@ -2,6 +2,20 @@
   command = "npm run build"
   publish = "dist"
 
+# Keep ads.txt served as-is on the netlify.app host
+[[redirects]]
+  from = "https://senior-pal.netlify.app/ads.txt"
+  to = "/ads.txt"
+  status = 200
+  force = true
+
+# Permanent hostname redirect: netlify.app -> clean custom domain (approved by Al 2026-10-17)
+[[redirects]]
+  from = "https://senior-pal.netlify.app/*"
+  to = "https://seniorpal.help-pal-apps.com/:splat"
+  status = 301
+  force = true
+
 # SPA fallback for react-router
 [[redirects]]
   from = "/*"
