@@ -1545,6 +1545,98 @@ export const DISCOUNTS: Discount[] = [
     notes: '528 Cultural Park Blvd, Cape Coral · (239) 772-5862. Sources: culturalparktheatre.org/box-office + artswfl.com senior-over-60 note (checked Oct 2026).',
   },
 
+  // —— Weekly crawl 2026-10-26: Sedona, Punta Gorda, Rehoboth Beach ——
+  {
+    id: 'sedona-community-center-lunch-60',
+    business: 'Sedona Community Center — Community Lunch',
+    blurb:
+      'Nonprofit senior center in West Sedona serves a hot community lunch at noon Monday–Friday. Diners 60 and older are asked for a suggested contribution of about $7 (those 59 and under pay a required ~$10). Reservations are required — call ahead.',
+    minAge: 60,
+    membership: null,
+    scope: 'city',
+    cityId: 'sedona-az',
+    category: 'dining',
+    dayRestriction: 'Mon–Fri, lunch served at noon (reservation required)',
+    proofNeeded: 'Reservation; age may be asked',
+    callAhead: true,
+    notes: '2615 Melody Lane, Sedona · 928.282.2834. Source: sccsedona.org/who-we-are (checked Oct 2026).',
+  },
+  {
+    id: 'sky-ranch-lodge-sedona-62',
+    business: 'Sky Ranch Lodge',
+    blurb:
+      'Independent airport-mesa lodge in Sedona lists a senior offer for guests 62 and above: about 10% off the standard daily rate. Offers are booked by phone — call ahead to confirm availability and blackout dates.',
+    minAge: 62,
+    membership: null,
+    scope: 'city',
+    cityId: 'sedona-az',
+    category: 'travel',
+    dayRestriction: null,
+    proofNeeded: 'Photo ID showing age at check-in',
+    callAhead: true,
+    notes: 'Airport Road, Sedona · 928-282-6400. Source: skyranchlodge.com/sedona-hotel-deals (checked Oct 2026).',
+  },
+  {
+    id: 'peace-river-gardens-punta-gorda-65',
+    business: 'Peace River Botanical & Sculpture Gardens',
+    blurb:
+      'Waterfront botanical and sculpture garden in Punta Gorda lists Seniors (65+) admission at about $18 vs. $21 adult. Hours are seasonal (shorter Tue–Sun hours June–September) — verify before you go.',
+    minAge: 65,
+    membership: null,
+    scope: 'city',
+    cityId: 'punta-gorda-fl',
+    category: 'attractions',
+    dayRestriction: null,
+    proofNeeded: 'Photo ID showing age may be requested',
+    callAhead: true,
+    notes: '5827 Riverside Drive, Punta Gorda · 941-621-8299. Source: peacerivergardens.org/admission-rates (checked Oct 2026).',
+  },
+  {
+    id: 'punta-gorda-friendship-dining-lunch',
+    business: 'Senior Friendship Centers — Charlotte County Friendship Dining',
+    blurb:
+      'Nonprofit senior lunch for the 60+ crowd at two Punta Gorda dining sites (Rebecca Neal Owens Center in Harbour Heights, Mon/Wed/Thu; The Verandas, Mon–Thu, about 11:30am–noon). A ~$3 donation is suggested; no one is turned away for inability to pay. Call ahead to register.',
+    minAge: 60,
+    membership: null,
+    scope: 'city',
+    cityId: 'punta-gorda-fl',
+    category: 'dining',
+    dayRestriction: 'Lunch ~11:30am–noon; Owens Center Mon/Wed/Thu, Verandas Mon–Thu (typical)',
+    proofNeeded: 'Register as a dining client; age may be asked',
+    callAhead: true,
+    notes: '27420 Voyageur Dr, Punta Gorda · (941) 255-0723; The Verandas, 24500 Airport Rd. Source: friendshipcenters.org/location/charlotte-friendship-center (checked Oct 2026).',
+  },
+  {
+    id: 'movies-at-midway-rehoboth-60',
+    business: 'Movies at Midway',
+    blurb:
+      'Independent Atlantic Theaters cinema on Coastal Highway lists Senior (60+) tickets at about $10 for matinees before 6pm and $11 evenings (vs. $12/$14 adult). Upcharges apply for The Cube and 3D; special events may differ.',
+    minAge: 60,
+    membership: null,
+    scope: 'city',
+    cityId: 'rehoboth-beach-de',
+    category: 'entertainment',
+    dayRestriction: null,
+    proofNeeded: 'Photo ID showing age may be requested',
+    callAhead: true,
+    notes: '18585 Coastal Hwy, Suite 1, Rehoboth Beach. Source: moviesatmidway.com/faq (checked Oct 2026).',
+  },
+  {
+    id: 'clear-space-theatre-rehoboth-60',
+    business: 'Clear Space Theatre Company',
+    blurb:
+      'Rehoboth Beach regional theatre lists single tickets at about $36 for patrons 60 and over vs. $42 general admission (fees included). Prices can rise closer to show date as seats sell — buy early and confirm with the box office.',
+    minAge: 60,
+    membership: null,
+    scope: 'city',
+    cityId: 'rehoboth-beach-de',
+    category: 'entertainment',
+    dayRestriction: null,
+    proofNeeded: 'Photo ID showing age may be requested',
+    callAhead: true,
+    notes: '20 Baltimore Ave, Rehoboth Beach · 302.227.2270. Source: clearspacetheatre.org/tickets (checked Oct 2026).',
+  },
+
 ];
 
 export function getDiscount(id: string): Discount | undefined {
