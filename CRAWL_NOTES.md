@@ -74,3 +74,23 @@ Also searched (weak / nothing added):
 
 Rotation note for next week: avoid The Villages / Hot Springs / Cape Coral; try Fort Myers-proper locals, Estero/Bonita Springs, Sedona/Payson AZ, or Rehoboth Beach DE.
 
+
+## 2026-10-26 (Mon) — Grok Bot weekly crawl
+Commit: `035ed22` · Netlify deploy: `6adf7206c9a9cf2f05d6efbb` (prod https://seniorpal.help-pal-apps.com; deployed via Netlify connector because the box netlify CLI is not logged in)
+
+Cities focused / covered this run:
+- Sedona, AZ (`sedona-az`) — Sedona Community Center Community Lunch (60+ ~$7 suggested vs $10), Sky Ranch Lodge (62+ 10% off standard rate)
+- Punta Gorda, FL (`punta-gorda-fl`) — Peace River Botanical & Sculpture Gardens (65+ $18 vs $21), Senior Friendship Centers Charlotte County Friendship Dining (60+ ~$3 suggested donation; Owens Center + Verandas)
+- Rehoboth Beach, DE (`rehoboth-beach-de`) — Movies at Midway (60+ $10 matinee / $11 evening), Clear Space Theatre Company (60+ $36 vs $42)
+
+Also searched (weak / nothing added):
+- Rehoboth Diner Tuesday 55+ 15% — only on OffSeasonEats/debeaches (marked "not confirmed for 2026-2027"); official specials page no longer lists it.
+- Indian River Life-Saving Station (62+ $3) — undated DelawareScene listing; state park page shows no fees; chamber notes free admission. Skipped.
+- Goolee's Grille 62+ 15% — 2023–24 events calendar (stale). Tokyo Steakhouse / Kick N' Chicken senior Wednesdays — old Tripping.com blog, unverified.
+- Hair Cuttery / Sport Clips / Great Clips / Harkins Sedona 6 / IHOP / Golden Corral — chains; skipped.
+- Sedona Barber Shop — "senior discounts" with no age/amount. Sedona Heritage Museum, Red Rock State Park, Sedona/Oakcreek golf, Mary D. Fisher Theatre — no senior tier published.
+- Out of Africa Wildlife Park 65+ ($40.95 vs $42.95) — Camp Verde, not Sedona; post-flood soft reopening. Skipped.
+- Punta Gorda: Military Heritage Museum (veteran rate only), King Fisher Fleet (FAQ: no senior discount), Goodwill SWFL Wed 55+ 20% (regional Goodwill; skipped like Goodwill AZ), Gettel Hyundai/Firemen Detailers (no age/amount), Charlotte Players (no senior price found).
+- Visit Rehoboth 2026-27 specials list blocks fetch — worth a browser pass next time for senior early-birds.
+
+Rotation note for next week: avoid Sedona/Punta Gorda/Rehoboth; fallbacks Fountain Hills AZ, Lake Havasu City AZ, Bonita Springs/Estero FL, Ocean City MD still available.
