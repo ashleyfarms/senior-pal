@@ -96,7 +96,7 @@ Also searched (weak / nothing added):
 Rotation note for next week: avoid Sedona/Punta Gorda/Rehoboth; fallbacks Fountain Hills AZ, Lake Havasu City AZ, Bonita Springs/Estero FL, Ocean City MD still available.
 
 ## 2026-11-02 (Mon) — Grok Bot weekly crawl
-Commit: (see below) · Netlify deploy: (see below)
+Commit: `5afd5b8` · Netlify deploy: `6ae8b88682db554a5c6fd357` (prod https://seniorpal.help-pal-apps.com; box git push worked this run; deployed via Netlify connector)
 
 Cities focused / covered this run:
 - Ocala, FL (`ocala-fl`) — Appleton Museum of Art (55+ $8 vs $10; free first Saturdays), Marion Senior Services Marion Café congregate lunch (60+ no cost, weekdays, enrollment required)
