@@ -94,3 +94,24 @@ Also searched (weak / nothing added):
 - Visit Rehoboth 2026-27 specials list blocks fetch — worth a browser pass next time for senior early-birds.
 
 Rotation note for next week: avoid Sedona/Punta Gorda/Rehoboth; fallbacks Fountain Hills AZ, Lake Havasu City AZ, Bonita Springs/Estero FL, Ocean City MD still available.
+
+## 2026-11-02 (Mon) — Grok Bot weekly crawl
+Commit: (see below) · Netlify deploy: (see below)
+
+Cities focused / covered this run:
+- Ocala, FL (`ocala-fl`) — Appleton Museum of Art (55+ $8 vs $10; free first Saturdays), Marion Senior Services Marion Café congregate lunch (60+ no cost, weekdays, enrollment required)
+- Lake Havasu City, AZ (`lake-havasu-city-az`) — Star Cinemas (55+ $6.50; Senior Wednesday $5 + free popcorn), Movies Havasu (55+ $7.50 all day; Senior Movie Monday w/ popcorn), Lake Havasu Senior Center lunch (60+ ~$5 suggested donation vs $7)
+- Bend, OR (`bend-or`) — High Desert Museum (65+ $17 winter / $19 summer; free Senior Day Nov 18 2026), Tin Pan Theater (65+ $10 vs $12), Council on Aging of Central Oregon Senior Services Center lunch (60+ no cost, Wed–Fri)
+
+Also searched (weak / nothing added):
+- Ipanema Brazilian Steak House (Ocala) — "senior citizens get a discount" only in a single Google review; no age/amount.
+- Sam's St. Johns Seafood (Ocala) — senior menu after 4pm but no age stated; small regional family chain.
+- Ocala Discovery Center — "Seniors/Veterans $7" with no age cutoff. Ocala Civic Theatre — "senior discounts available," no age/price.
+- Epic Theatres of Ocala (60+ $10 weekends) — regional chain; deprioritized vs locals.
+- Denny's/IHOP/Golden Corral/Cracker Barrel Ocala — national chains; skipped.
+- Lake Havasu Museum of History — now "by donation only," no senior tier. Lake Havasu Golf Club — no senior rate on 2026–27 rates page.
+- Lake Havasu Aquatic Center — "$3 seniors" open swim but no age stated.
+- Deschutes Historical Museum (Bend) — Senior $8 vs $10 but no age cutoff published.
+- Tower Theatre / Cascades Theatrical Company (Bend) — senior pricing varies per production; no standing rate.
+
+Rotation note for next week: avoid Ocala/Lake Havasu/Bend; fallbacks Traverse City MI, Fountain Hills AZ, Bonita Springs/Estero FL, Ocean City MD still available.
