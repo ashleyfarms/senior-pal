@@ -115,3 +115,21 @@ Also searched (weak / nothing added):
 - Tower Theatre / Cascades Theatrical Company (Bend) — senior pricing varies per production; no standing rate.
 
 Rotation note for next week: avoid Ocala/Lake Havasu/Bend; fallbacks Traverse City MI, Fountain Hills AZ, Bonita Springs/Estero FL, Ocean City MD still available.
+
+## 2026-11-09 (Mon) — Grok Bot weekly crawl
+
+Cities focused / covered this run:
+- Traverse City, MI (`traverse-city-mi`) — Senior Center Network hot lunch (60+ ~$4 suggested donation, Tue–Thu), Patriot Farms (65+ $10 Fri–Sun, fall season only)
+- Fountain Hills, AZ (`fountain-hills-az`) — Fountain Hills Theater (60+ Thursdays $35 vs $40), River of Time Museum (65+ $10 vs $12)
+- Ocean City, MD (`ocean-city-md`) — Ocean City Beach Bus (65+ $2 ride-all-day vs $4), Art League of Ocean City (60+ membership $50 vs $60)
+
+Also searched (weak / nothing added):
+- State Theatre Traverse City — 65+ $7.50 only on CinemaClock (undated); official site lists no senior price. Skipped.
+- Dennos Museum Center, Mission Point Lighthouse — no senior tier.
+- Ocean City Life-Saving Station Museum — Casago lists 62+ $3, but official ocmuseum.org shows $6 general with no senior rate. Skipped.
+- Eagle's Landing Golf (Berlin/OC) — third-party 55+ $25 claim; official page is dynamic pricing only. Skipped.
+- Ocean City 50plus Center (WorCOA) — no lunch donation amount published.
+- Fountain Hills Community Center meals — home-delivered only (80+/need-based), no 60+ congregate rate. Fountain Hills golf courses — no senior rates published.
+- Denny's/IHOP and other chains in all three cities — skipped.
+
+Rotation note for next week: avoid Traverse City/Fountain Hills/Ocean City MD; fallbacks Bonita Springs/Estero FL, Hot Springs Village AR, Rancho Mirage/Palm Desert CA, St. George-type hubs not yet in cities.ts.
