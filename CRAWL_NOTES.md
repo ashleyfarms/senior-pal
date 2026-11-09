@@ -117,6 +117,7 @@ Also searched (weak / nothing added):
 Rotation note for next week: avoid Ocala/Lake Havasu/Bend; fallbacks Traverse City MI, Fountain Hills AZ, Bonita Springs/Estero FL, Ocean City MD still available.
 
 ## 2026-11-09 (Mon) — Grok Bot weekly crawl
+Commit: `d72dae8` · Netlify deploy: `6af1f34b17a765cf9a673a40` (prod https://seniorpal.help-pal-apps.com; via Netlify connector)
 
 Cities focused / covered this run:
 - Traverse City, MI (`traverse-city-mi`) — Senior Center Network hot lunch (60+ ~$4 suggested donation, Tue–Thu), Patriot Farms (65+ $10 Fri–Sun, fall season only)
