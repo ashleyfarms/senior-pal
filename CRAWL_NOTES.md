@@ -136,6 +136,7 @@ Also searched (weak / nothing added):
 Rotation note for next week: avoid Traverse City/Fountain Hills/Ocean City MD; fallbacks Bonita Springs/Estero FL, Hot Springs Village AR, Rancho Mirage/Palm Desert CA, St. George-type hubs not yet in cities.ts.
 
 ## 2026-11-16 (Mon) — Grok Bot weekly crawl
+Commit: `499ec84` · Netlify deploy: `6afb2de75761e2a506914105` (prod https://seniorpal.help-pal-apps.com; via Netlify connector)
 Cities focused / covered this run:
 - Savannah, GA (`savannah-ga`) — Ships of the Sea Maritime Museum (65+ $14.50 vs $17.50), Green-Meldrim House (65+ $13.50 vs $15), UGA Aquarium Skidaway Island (65+ $5 vs $8)
 - Santa Fe, NM (`santa-fe-nm`) — Museum of International Folk Art (NM resident 60+ free Wednesdays), El Rancho de Las Golondrinas (62+ $8 vs $10, seasonal), IAIA MoCNA (62+ $5 vs $10)
