@@ -134,3 +134,19 @@ Also searched (weak / nothing added):
 - Denny's/IHOP and other chains in all three cities — skipped.
 
 Rotation note for next week: avoid Traverse City/Fountain Hills/Ocean City MD; fallbacks Bonita Springs/Estero FL, Hot Springs Village AR, Rancho Mirage/Palm Desert CA, St. George-type hubs not yet in cities.ts.
+
+## 2026-11-16 (Mon) — Grok Bot weekly crawl
+Cities focused / covered this run:
+- Savannah, GA (`savannah-ga`) — Ships of the Sea Maritime Museum (65+ $14.50 vs $17.50), Green-Meldrim House (65+ $13.50 vs $15), UGA Aquarium Skidaway Island (65+ $5 vs $8)
+- Santa Fe, NM (`santa-fe-nm`) — Museum of International Folk Art (NM resident 60+ free Wednesdays), El Rancho de Las Golondrinas (62+ $8 vs $10, seasonal), IAIA MoCNA (62+ $5 vs $10)
+- St. Petersburg, FL (`st-petersburg-fl`) — Sunken Gardens (62+ $15 vs $18), St. Petersburg Museum of History (65+ $14 vs $17)
+
+Also searched (weak / nothing added):
+- The Diner on Abercorn (Savannah) — "10% senior" only on aggregator sites (restaurants10/hungryfoody), no age, official site not verifiable. Skipped.
+- Ole Times Country Buffet (Savannah) — senior $9.99 only on buffetprices.net; small regional chain, no age. Skipped.
+- Imagine Museum (St. Pete) — "$5 Prime Time Wednesdays 65+" only on visitstpeteclearwater.com; official site didn't show current pricing. Skipped.
+- Telfair Museums, SCAD MOA, Andrew Low House (Savannah); Florida Holocaust Museum, MFA St. Pete (St. Pete); Museum of Indian Arts & Culture, O'Keeffe (Santa Fe) — valid senior rates but held back to keep a few listings per city; candidates for later.
+- Beyond the Wings Theater (St. Pete) — senior price per single show, no age. Skipped.
+- Denny's and other chains — skipped.
+
+Rotation note for next week: avoid Savannah/Santa Fe/St. Pete; fallbacks Bonita Springs/Estero FL, Hot Springs Village AR, Rancho Mirage/Palm Desert CA, Tucson, Mesa, Daytona Beach.
